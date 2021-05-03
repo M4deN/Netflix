@@ -1,0 +1,29 @@
+*{
+    margin 0;
+    padding 0;
+    box-sizing: border-box;
+}
+body{
+    background:gray;
+}
+
+.center{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 2%;
+}
+
+.clear{clear: both;}
+
+header{
+    background: black;
+    padding: 12px 0;
+}
+
+.header-left{
+    float: left;
+}
+
+.header-left img{
+    max-width: 120px;
+}
