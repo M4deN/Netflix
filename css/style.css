@@ -42,3 +42,12 @@ header{
     color: white;
     text-decoration: none;
 }
+/* menu right*/
+.header-right{
+    float: right;
+}
+.search i{
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+}
