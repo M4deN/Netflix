@@ -8,7 +8,7 @@ body{
 }
 
 .center{
-    max-width: 1200px;
+    max-width: 1500px;
     margin: 0 auto;
     padding: 0 2%;
 }
@@ -19,6 +19,7 @@ header{
     background: black;
     padding: 12px 0;
 }
+/* menu 1 - header */
 
 .header-left{
     float: left;
@@ -26,4 +27,18 @@ header{
 
 .header-left img{
     max-width: 120px;
+}
+.menu-header{
+    display: inline-block;
+    margin-left: 30px;
+}
+.menu-header li{
+    position: relative;
+    top: -10px;
+    display: inline-block;
+    margin-right: 15px;
+}
+.menu-header a{
+    color: white;
+    text-decoration: none;
 }
