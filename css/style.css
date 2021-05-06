@@ -94,12 +94,19 @@ section.destaque{
     width: 100%;
     min-height: 700px;
     position: absolute;
+    z-index: 1;
 }
 .overlay{
+    z-index: 2;
     position: absolute;
     left: 0;
     top: 0;
     width: 100%;
     height: 100%;
     background-color: rgba(0, 0, 0, 0.3);
+}
+.texto-destaque{
+    color: white;
+    z-index: 3;
+    position: relative;
 }
