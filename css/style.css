@@ -84,3 +84,13 @@ header{
     color: white;
     text-decoration: none;
 }
+
+/*Destaque*/
+
+section.destaque{
+    background-image: url('../banner.jpg');
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    min-height: 700px;
+}
