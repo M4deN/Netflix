@@ -109,4 +109,6 @@ section.destaque{
     color: white;
     z-index: 3;
     position: relative;
+    margin-top: 90px;
+    margin-left: 4%;
 }
