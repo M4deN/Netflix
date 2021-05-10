@@ -125,3 +125,16 @@ section.destaque{
 .texto-destaque p{
     font-size: 20px;
 }
+.texto-destaque a{
+    background-color: rgba(70, 70, 70, 0.3);
+    color: white;
+    text-decoration: none;
+    padding: 8px 40px;
+    font-size: 20px;
+    display: inline-block;
+    margin-right: 15px;
+}
+.texto-destaque a:hover{
+    background: white;
+    color: black;
+}
