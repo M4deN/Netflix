@@ -107,8 +107,21 @@ section.destaque{
 }
 .texto-destaque{
     color: white;
-    z-index: 3;
+    z-index:3;
     position: relative;
-    margin-top: 90px;
+    margin-top: 250px;
     margin-left: 4%;
+}
+
+.texto-destaque h2{
+    color: #e50914;
+    font-size: 70px;
+    text-transform: uppercase;
+}
+.texto-destaque h3{
+    margin: 20px 0;
+    font-size: 30px;
+}
+.texto-destaque p{
+    font-size: 20px;
 }
