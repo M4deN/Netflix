@@ -142,7 +142,7 @@ section.destaque{
 }
 .centro{
     max-width: 1500px;
-    margin: 0 auto;
+    margin: 400px 0;
     padding: 0 2%;
     display: flex;
     flex-wrap: wrap;
@@ -152,7 +152,7 @@ section.destaque{
 ].main h2{
     color: white;
     width: 100%;
-    margin 20px;
+    margin 30px;
     
 }
 .card-movie{
