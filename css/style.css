@@ -106,6 +106,7 @@ section.destaque{
     background-color: rgba(0, 0, 0, 0.3);
 }
 .texto-destaque{
+    background: url('../img/guerranasestrelassmall.jpg');
     color: white;
     z-index:3;
     position: relative;
@@ -113,12 +114,6 @@ section.destaque{
     margin-left: 4%;
 }
 
-.texto-destaque h4{
-    color: #e50914;
-    margin: 10px 0;
-    font-size: 70px;
-    text-transform: uppercase;
-}
 .texto-destaque h3{
     margin: 10px 0;
     font-size: 30px;
@@ -166,3 +161,11 @@ section.destaque{
 .card-movie img:hover{
     transform: scale(1.1,1.1);
 }
+.logo {
+    transform: rotate(0.5deg);
+    transform-origin: left right;
+    width: 400px;
+    margin: 0px;
+    margin-top: -80px;
+    
+    }
