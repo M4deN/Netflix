@@ -7,16 +7,9 @@ fetch('https://api.themoviedb.org/3/movie/popular?api_key=506fadb0256c13349acc05
         
         if(j > 18)
             return;
-        if(j == 0){
-
-            main.innerHTML+=`
-                <h2>Assista Aos Melhores Filmes</h2>
-                 <div class="card-movie" style="background-image:url('https://image.tmdb.org/t/p/w200`+i.backdrop_path+`')"></div>
-            `;
-        }else{
+        
             if(j==1){
                 main.innerHTML+=`
-                    
                     <div class="card-movie"><img src="https://image.tmdb.org/t/p/w200`+i.poster_path+`" /></div>
                 `;
             }else{
@@ -27,7 +20,7 @@ fetch('https://api.themoviedb.org/3/movie/popular?api_key=506fadb0256c13349acc05
                 `;
             }
         
-        }
+        
 
     })
 })
@@ -135,7 +128,7 @@ fetch('https://api.themoviedb.org/3/movie/popular?api_key=506fadb0256c13349acc05
         if(j == 0){
 
             main.innerHTML+=`
-                
+            <h2>AAAAAAAAAAAAAA</h2>
                  <div class="banner-principal" style="margin-top:20px;background-image:url('https://image.tmdb.org/t/p/original`+i.backdrop_path+`')"></div>
             `;
         }else{
