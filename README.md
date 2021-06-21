@@ -5,3 +5,5 @@
 ![Começo](https://github.com/AlexDeSaran/Netflix/blob/main/Images/Capturar2.PNG)
 ![Começo](https://github.com/AlexDeSaran/Netflix/blob/main/Images/Capturar3.PNG)
 ![Começo](https://github.com/AlexDeSaran/Netflix/blob/main/Images/Capturar4.PNG)
+![Começo](https://github.com/AlexDeSaran/Netflix/blob/main/Images/Capturar5.PNG)
+
