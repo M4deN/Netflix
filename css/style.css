@@ -89,7 +89,7 @@ header{
 /*Destaque*/
 
 section.destaque{
-    background-image: url('../images/banner.jpg');
+    background-image: url('./../Images/banner.jpg');
     background-size: cover;
     background-position: center;
     width: 100%;
