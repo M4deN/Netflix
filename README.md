@@ -38,7 +38,7 @@ Foi desenvolvido diretamente no código.</p>
 
 ![Começo](https://github.com/AlexDeSaran/Netflix/blob/main/Images/Capturar.PNG)
 
-<h3>Todos os titulos com execessão do banner principal foram inseridos dinamicamente através de uma API:</h3>
+<h3>Todos os titulos com exceção do banner principal foram inseridos dinamicamente através de uma API:</h3>
 
 ![Começo](https://github.com/AlexDeSaran/Netflix/blob/main/Images/Capturar1.PNG)
 
