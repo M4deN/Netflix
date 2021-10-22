@@ -1,8 +1,8 @@
 <h1> Projeto Netflix </h1>
-<p><b>Site funcional para Um Restaurante. 🧮</b></p>
+<p><b>Site funcional Streaming de filmes. 🧮</b></p>
 
 [![Website shields.io](https://img.shields.io/website-up-down-green-red/http/shields.io.svg)](http://shields.io/)
-<a href="https://alexdesaran.github.io/Restaurante/"> Visite o site! </a>
+<a href="https://alexdesaran.github.io/Netflix/"> Visite o site! </a>
 
 <h4> 
 	Projeto Concluído ✅
