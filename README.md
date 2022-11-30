@@ -42,7 +42,7 @@ Foi desenvolvido diretamente no código.</p>
 
 ![Começo](https://github.com/AlexDeSaran/Netflix/blob/main/Images/Capturar1.PNG)
 
-<h2 id="autor"Autor</h2>
+<h3 id="autor"Autor</h3>
 
 <p>Autor do Projeto: Alécio L. Medeiros</p>
 
