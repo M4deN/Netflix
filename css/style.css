@@ -1,129 +1,125 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: "Helvetica";
-}
-body{
-    background:rgb(0, 0, 0);
-}
-
-.center{
+  }
+  
+  body {
+    background: rgb(0, 0, 0);
+  }
+  
+  .center {
     max-width: 1500px;
     margin: 0 auto;
     padding: 0 2%;
-    
-}
-
-.clear{clear: both;}
-
-header{
+  }
+  
+  .clear {
+    clear: both;
+  }
+  
+  header {
     background: black;
-    padding: 12px 0;
-}
-/* menu 1 - header */
-
-.header-left{
+    padding: 4px 0;
+  }
+  
+  /* menu 1 - header */
+  .header-left {
     float: left;
-}
-
-.header-left img{
+  }
+  
+  .header-left img {
     max-width: 120px;
-}
-.menu-header{
+  }
+  
+  .menu-header {
     display: inline-block;
-    margin-left: 30px;
-}
-.menu-header li{
+    margin-left: 10px;
+    font-style: bold;
+  }
+  
+  .menu-header li {
     font-size: 14px;
     position: relative;
     top: -20px;
     display: inline-block;
-    margin-right: 15px;
-}
-.menu-header a{
+    margin-right: 10px;
+  }
+  
+  .menu-header a {
     color: white;
     text-decoration: none;
-}
-/* menu right*/
-.header-right{
-    margin-right: 50px;
+  }
+  
+  /* menu right*/
+  .header-right {
+    margin-right: 5px;
     margin-top: 35px;
     float: right;
-}
-.search, .notifications{
+  }
+  
+  .search,
+  .notifications {
     display: inline-block;
-}
-.notifications{
+  }
+  
+  .notifications {
     position: relative;
-}
-
-.circle-notifications{
+  }
+  
+  .circle-notifications {
     position: absolute;
-    right:0;
-    top:-10px;
-    width:20px;
-    height:20px;
+    right: 0;
+    top: -10px;
+    width: 20px;
+    height: 20px;
     border-radius: 10px;
     background: #e50914;
     text-align: center;
-    vertical-align: 20px;
-}
-.circle-notifications span{
+    line-height: 20px;
+  }
+  
+  .circle-notifications span {
     font-size: 12px;
     color: white;
-}
-.header-right i{
-    margin:0 10px;
+  }
+  
+  .header-right i {
+    margin: 0 10px;
     cursor: pointer;
     color: white;
     font-size: 18px;
-   font-weight: bold;
-}
-
-.header-right a{
+    font-weight: bold;
+  }
+  
+  .header-right a {
     color: white;
     text-decoration: none;
-}
-
-/*Destaque*/
-
-section.destaque{
-    background-image: url('./../Images/banner.jpg');
-    background-size: cover;
-    background-position: center;
-    width: 100%;
-    min-height: 700px;
-    position: absolute;
-    z-index: 1;
-}
-.overlay{
-    z-index: 2;
-    position: absolute;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.3);
-}
-.texto-destaque{
+  }
+  
+  /* Destaque */
+    
+  .texto-destaque {
     background: url('../img/guerranasestrelassmall.jpg');
     color: white;
-    z-index:3;
-    position: relative;
-    margin-top: 320px;
+    z-index: 3;
+    position: absolute;
+    margin-top: 17%;
     margin-left: 4%;
-}
-
-.texto-destaque h3{
+  }
+  
+  .texto-destaque h3 {
     margin: 10px 0;
     font-size: 30px;
-}
-.texto-destaque p{
+  }
+  
+  .texto-destaque p {
     margin: 10px 0;
     font-size: 20px;
-}
-.texto-destaque a{
+  }
+  
+  .texto-destaque a {
     background-color: rgba(70, 70, 70, 0.3);
     color: white;
     text-decoration: none;
@@ -131,51 +127,83 @@ section.destaque{
     font-size: 20px;
     display: inline-block;
     margin-right: 15px;
-}
-.texto-destaque a:hover{
+  }
+  
+  .texto-destaque a:hover {
     background: white;
     color: black;
-}
-.centro{/*mexe nos card*/
-    max-width: 1500px;
-    margin: 20px 0;
-    margin-top: 700px;
+  }
+  
+  .centro {
     padding: 12px 1%;
     display: flex;
+    justify-content: center;
+    align-items: center;
     flex-wrap: wrap;
-}
-
+    gap: 20px;
+    margin-top: 3px; /* Ajuste este valor conforme necessário */
+  }
+  
+  section.destaque {
+    background-image: url('./../Images/banner.jpg');
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    min-height: 700px;
+    position: relative;
+    z-index: 1;
+    margin-top: 5px;
+  } 
+    
 .banner-principal{
     width: 100%;
     height: 700px;
     background-size: cover;
     background-position: center;
+    margin-top: 1px;
+}
+    
+.card {
+  transform: scale(1);
+  transition: transform 0.3s ease;
+  position: relative;
+  z-index: 0;
 }
 
-.main h2{
-    color: white;
-    width: 100%;
-    margin: 0px 0;
-    
+.card:hover {
+  transform: scale(1.05);
+  z-index: 1;
 }
 
-.card-movie{
-    width: 20%;
-    transition:1s;
-    
-}
-.card-movie img{
+  #main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }  
+  
+  .card img {
     width: 100%;
-    margin-top: 10px;
-}
-.card-movie img:hover{
-    transform: scale(1.1,1.1);
-}
-.logo {
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 30px;
+  }  
+  .card h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+   .card p {
+    font-size: 14px;
+    color: #ffffff;
+  }  
+  p {
+    text-align: justify;
+    text-indent: 50px;
+  }  
+  .logo {
     transform: rotate(0.5deg);
     transform-origin: left right;
-    width: 400px;
-    margin: 0px;
-    margin-top: -80px;
-    
-}
+    width: 300px;
+    margin: 0;
+    margin-top: 10px;
+  }  
