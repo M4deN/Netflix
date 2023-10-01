@@ -50,6 +50,7 @@
   .menu-header a {
     color: white;
     text-decoration: none;
+    font-weight: bold;
   }
   
   /* menu right*/
