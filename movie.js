@@ -71,7 +71,7 @@ fetch('https://api.themoviedb.org/3/movie/popular?api_key=506fadb0256c13349acc05
   .then(data => {
     data.results.map((i, j) => {
 
-      if (j > 15)
+      if (j > 14)
         return;
 
       else {
