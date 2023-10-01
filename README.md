@@ -2,7 +2,7 @@
 <p><b>Site funcional Streaming de filmes. 🧮</b></p>
 
 [![Website shields.io](https://img.shields.io/website-up-down-green-red/http/shields.io.svg)](http://shields.io/)
-<a href="https://alexdesaran.github.io/Netflix/"> Visite o site! </a>
+<a href="https://m4den.github.io/Netflix/"> Visite o site! </a>
 
 <h4> 
 	Projeto Concluído ✅
@@ -12,7 +12,6 @@
  <li><a href="#sobre">Sobre</a></li>
  <li><a href="#tecnologias">Tecnologias usadas</a></li> 
  <li><a href="#sessao">sessão da página</a></li>
- <li><a href="#autor">Autor</a></li> 
 </ul>
 
 <h2 id="sobre">Sobre</h2>
@@ -42,6 +41,3 @@ Foi desenvolvido diretamente no código.</p>
 
 ![Começo](https://github.com/AlexDeSaran/Netflix/blob/main/Images/Capturar1.PNG)
 
-<h3 id="autor"Autor</h3>
-
-<p>Autor do Projeto: Alécio L. Medeiros</p>
