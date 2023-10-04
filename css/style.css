@@ -208,7 +208,9 @@
     margin-top: 10px;
   }  
   footer{
-    position: static;
+    clear: both;
+    border-top: 1px solid #ffffff; 
+    position: inherit;
     color: white;
     bottom: 0;
     width: 100%;
@@ -216,8 +218,9 @@
     text-align: center;
   }
   footer p, a{
-    margin-top: auto;
     margin-left: 0.2em;
+    margin-top: auto;
     color: var(--white);
-  align-items: center;
+    align-items: center;
+    text-decoration: none;
   }
